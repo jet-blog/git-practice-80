@@ -18,6 +18,17 @@ git config --global user.email "y.yasson.n@gmail.com"
 git config --global user.email
 ```
 
+## 基礎知識
+- originとは
+  - リモートリポジトリのアクセス先に対してGitがデフォルトでつける名前です。
+
+```bash
+# originのアクセス先を確認するコマンド
+git remote -v
+
+origin  https://github.com/jet-blog/git-practice-80.git 
+```
+
 ## 基本操作
 ```bash
 # Gitリポジトリのダウンロード
