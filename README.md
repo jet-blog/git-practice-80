@@ -1,5 +1,4 @@
 # git-practice-80
-Gitの練習
 
 ## 初期設定
 ```bash
@@ -31,6 +30,9 @@ origin  https://github.com/jet-blog/git-practice-80.git
 
 ## 基本操作
 ```bash
+# Gitリポジトリ作成
+git init
+
 # Gitリポジトリのダウンロード
 git clone [リモートリポジトリのURL]
 
