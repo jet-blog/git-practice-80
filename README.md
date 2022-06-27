@@ -18,6 +18,58 @@ git config --global user.email "y.yasson.n@gmail.com"
 git config --global user.email
 ```
 
+## 基本操作
+```bash
+# Gitリポジトリのダウンロード
+git clone [リモートリポジトリのURL]
+
+# 状態確認
+git status
+
+# Staging(ステージング)
+git add ファイル名
+git add .
+
+# Commit(コミット)
+git commit -m "コメント"
+
+# Push(プッシュ)
+git push origin [リモートブランチ名]
+git push origin main
+git push -u origin main
+git push
+
+# Pull(プル)
+git pull origin [リモートブランチ名]
+git pull origin main
+git pull -u origin main
+git pull
+
+# Fetch(フェッチ)
+git fetch
+
+# ブランチの状態確認
+git branch
+git branch -a
+
+# ブランチ作成
+git branch ブランチ名
+git branch develop
+
+# ブランチの切替
+git switch -C ブランチ名
+git switch -C develop
+
+# 差分確認
+git diff
+git diff --cached
+
+# コミットログ参照
+git log
+git log --oneline
+
+```
+
 ## ローカルリポジトリを後からリモートリポジトリにPUSHする方法
 
 ```bash
