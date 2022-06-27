@@ -1,6 +1,23 @@
 # git-practice-80
 Gitの練習
 
+## 初期設定
+```bash
+# ユーザー設定
+git config --global user.name "UserName"
+git config --global user.name "jet-blog"
+
+# ユーザー確認
+git config --global user.name
+
+# メールアドレス設定
+git config --global user.email "email@example.com"
+git config --global user.email "y.yasson.n@gmail.com"
+
+# メールアドレス確認
+git config --global user.email
+```
+
 ## ローカルリポジトリを後からリモートリポジトリにPUSHする方法
 
 ```bash
@@ -36,6 +53,4 @@ git push -u origin main
 
 # Push
 git push
-
-
 ```
