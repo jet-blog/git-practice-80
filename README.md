@@ -41,9 +41,12 @@ git status
 git add ファイル名
 git add .
 
-# restore(リストア)
+# 変更の取り消し
 git restore ファイル名
 git restore .
+
+# Staging取り消し
+git reset HEAD
 
 # Commit(コミット)
 git commit -m "コメント"
