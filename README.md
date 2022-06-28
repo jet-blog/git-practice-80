@@ -4,14 +4,12 @@
 ```bash
 # ユーザー設定
 git config --global user.name "UserName"
-git config --global user.name "jet-blog"
 
 # ユーザー確認
 git config --global user.name
 
 # メールアドレス設定
 git config --global user.email "email@example.com"
-git config --global user.email "y.yasson.n@gmail.com"
 
 # メールアドレス確認
 git config --global user.email
@@ -42,6 +40,10 @@ git status
 # Staging(ステージング)
 git add ファイル名
 git add .
+
+# restore(リストア)
+git restore ファイル名
+git restore .
 
 # Commit(コミット)
 git commit -m "コメント"
